@@ -740,7 +740,7 @@ Este proyecto destaca por la transición de código heredado a estándares moder
 ### 1. Arquitectura MVC (Modelo-Vista-Controlador)
 ### 2. Implementación de Eloquent ORM
 ### 3. Gestión de Dependencias
-### 4. Encriptación de Contrseñas (Hash)
+### 4. Seguridad
 ---
 
 ## 📊 Diagrama Entidad-Relación (ER)
@@ -768,8 +768,6 @@ La base de datos relacional está diseñada para mantener la integridad referenc
 	<tr>
     <td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda (1).png" alt="socios" width="500"/></td>
 	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda2 (1).png" alt="socios" width="500"/></td>
-  </tr>
-  <tr>
 	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda3.png" alt="socios" width="500"/></td>
 	<td><img src="https://github.com/caceresvalenciagiovanni-web/proyecto-ventas-frontend/blob/main/img/tienda4.png" alt="socios" width="500"/></td>
   </tr>
@@ -2126,3 +2124,80 @@ o	Hosting: Render.
 | **Interfaz (Frontend)** | HTML5, CSS3, Bootstrap 5 |
 | **Gráficos** | Chart.js |
 | **Despliegue** | Render |
+
+
+Proyecto 29: Pirata Market – Sistema de Gestión de Abarrotes
+
+Pirata Market es una aplicación web desarrollada en *Django* para la gestión integral de una cadena de abarrotes.  
+Incluye catálogo público de productos, carrito de compras, sistema de pedidos, punto de venta (POS) para empleados, control de inventario y manejo de múltiples sucursales (bodegas).
+
+El sistema está pensado para simular un entorno real de ventas tanto en línea como en tienda física.
+
+---
+
+## 🚀 Funcionalidades principales
+
+### 🛒 Clientes
+- Navegación pública del catálogo de productos
+- Carrito de compras
+- Generación de pedidos
+- Pedidos asociados a una sucursal
+
+### 🧑‍💼 Empleados
+- Login seguro
+- Dashboard administrativo
+- Punto de Venta (POS)
+- Gestión de inventario por bodega
+- Visualización y control de pedidos
+- Estados de pedido: pendiente, pagado, preparado, entregado y cancelado
+
+### 📦 Inventario
+- Control de stock por presentación
+- Stock mínimo
+- Ajustes manuales
+- Descuento automático de inventario al cobrar pedidos o ventas
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- *Backend:* Django 5
+- *Base de datos:* PostgreSQL (Supabase)
+- *Frontend:* HTML5, CSS3, Django Templates
+- *Autenticación:* Django Auth
+- *Deploy:* Render
+- *Control de versiones:* Git & GitHub
+
+---
+
+## 📊 Diagramas del sistema
+
+### Diagrama ER Básico
+![Diagrama ER Básico](https://raw.githubusercontent.com/DarkMurr/proyectoBodegas/main/diagramas/Diagrma_ER_Basico.drawio.png)
+
+---
+
+### Diagrama ER Extendido
+![Diagrama ER Extendido](https://raw.githubusercontent.com/DarkMurr/proyectoBodegas/main/diagramas/Diagrama_ER_Extendido.drawio.png)
+
+---
+
+### Diagrama Relacional – BodegaDB
+![Diagrama Relacional](https://raw.githubusercontent.com/DarkMurr/proyectoBodegas/main/diagramas/Diagrama_Relacional_BodegaDB.drawio.png)
+
+---
+## 📸 Capturas de pantalla
+
+---
+## 🔗 Enlaces importantes
+
+- 📂 *Repositorio del proyecto:*  
+  https://github.com/DarkMurr/proyectoBodegas
+
+- 🌐 *Aplicación web (deploy en Render):*  
+  https://pirata-market.onrender.com
+
+- 📄 *Versión estática (GitHub Pages):*  
+  https://darkmurr.github.io/proyectoBodegas/
+
+---
